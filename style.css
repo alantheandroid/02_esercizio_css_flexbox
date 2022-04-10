@@ -37,7 +37,6 @@ aside {
   margin-top: 25px;
 }
 
-
 #logo-text {
   background-color: lightyellow;
   border-radius: 5px;
@@ -52,25 +51,23 @@ aside {
 
 .link-list {
   margin: 25px auto 25px auto;
+  width: 30%;
 }
 
-button {
+a {
   display: block;
+  text-align: center;
   margin: 5px auto 5px auto;
-  width: auto;
-  height: 35px;
+  padding: 5px;
   border: 2px solid lightyellow;
   border-radius: 10px;
+  color: white;
   background-color: #2b2b2b;
   transition: 0.3s;
 }
 
-button:hover {
+a:hover {
   background-color: #2b2bb2;
-}
-
-a {
-  color: white;
 }
 
 #avatar {
